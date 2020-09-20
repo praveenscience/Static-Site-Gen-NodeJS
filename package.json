@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/praveenscience/Static-Site-Gen-NodeJS/issues"
   },
-  "homepage": "https://github.com/praveenscience/Static-Site-Gen-NodeJS#readme"
+  "homepage": "https://github.com/praveenscience/Static-Site-Gen-NodeJS#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
