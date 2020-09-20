@@ -4,11 +4,11 @@ Static Site Generators are a new, hybrid approach to web development that allow 
 
 ## Tools Used
 
-We have used [NodeJs](https://nodejs.org/en/) to make our own Static Site Generator.
+We have used [Node JS](https://nodejs.org/en/) to make our own Static Site Generator.
 
 If you're a beginner, you can refer to my [YouTube video](https://youtu.be/q1YGCh2Ze4w) in which I explained how to create it from the scratch.
 
-![](https://i.imgur.com/z76FcNv.png)
+![YouTube Video Poster](https://i.imgur.com/z76FcNv.png)
 
 ## Requirements
 
