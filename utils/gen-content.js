@@ -1,8 +1,12 @@
+const genItemHTML = require("./gen-item");
+
 const genContentHTML = content => {
-  const contentHTML = [`<div class="events">`];
+  const contentHTML = [`<ul class="events">`];
   console.log(`Found ${content.length} items to process.`);
+  const contentsArray = [...content].map(genItemHTML);
+  contentHTML.push("\t" + contentsArray.join("\n\t"));
   console.log("Generated HTML:");
-  contentHTML.push("</div>");
+  contentHTML.push("</ul>");
   console.log(contentHTML.join("\n"));
 };
 module.exports = genContentHTML;
