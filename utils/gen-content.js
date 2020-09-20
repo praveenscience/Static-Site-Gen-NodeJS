@@ -7,6 +7,6 @@ const genContentHTML = content => {
   contentHTML.push("\t" + contentsArray.join("\n\t"));
   console.log("Generated HTML:");
   contentHTML.push("</ul>");
-  console.log(contentHTML.join("\n"));
+  return contentHTML.join("\n");
 };
 module.exports = genContentHTML;
